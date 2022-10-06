@@ -27,7 +27,7 @@ jobs:
         uses: avides/actions-action-configuration-autoupdate@v1.3.0
         with:
           token: ${{ secrets.PAT }}
-          actions-configuration-files: "./src/test/resources/application.yml"
+          actions-configuration-files: "src/test/resources/application.yml"
           source-repository: "https://github.com/geneaky/BookChat-Config"
           
       - name: check
